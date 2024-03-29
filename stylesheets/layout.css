@@ -271,11 +271,11 @@ animation: none;
 
 .secgrand {
     height: 46vw;
-    width: 66.2vw;;
+    width: 68.2vw;;
     background-image: url(../images/seccontr.png);
     background-size: contain;
  background-repeat: no-repeat;
-   
+ 
 
 }
 
@@ -325,8 +325,13 @@ animation: changecolor 1s linear infinite;
 .listfourth,
 .listsix{
     margin-left: 2vw;
+
 }
 
+.hiddenText{
+display: none;
+
+}
 /*________________ второй контейнер_______________ */
 
 .container-third {
