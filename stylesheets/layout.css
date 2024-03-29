@@ -1,0 +1,751 @@
+.main {
+display: block;
+}
+
+
+body {
+    font-family: 'Days one';
+}
+
+header {
+height: 17.9vw;
+overflow: hidden;
+
+}
+
+h1 {
+    position: absolute;
+    top: 4.514vw;
+    left: 10.972vw;
+    z-index: 3;
+    font-size: 7.083vw;
+    transform: rotate(-2deg);
+
+}
+
+.gradheader {
+    width: 100%;
+    height: 18.5vw;
+    background-image: url(../images/header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.headerbig {
+    position: absolute;
+    top: 2.8vw;
+    left: 8.4vw;
+    width: 85.4vw;
+    height: 11.2vw;
+    background-color: #E20B15;
+    z-index: 2;
+    transform: rotate(-2deg);
+}
+
+.headerword {
+    position: absolute;
+    font-size: 2.8vw;
+    top: 11vw;
+    left: 61.1vw;
+    z-index: 4;
+    transform: rotate(2deg);
+}
+
+.headersmall {
+    position: absolute;
+    width: 35vw;
+    height: 7.5vw;
+    top: 9vw;
+    left: 60vw;
+    background-color: #19A8E2;
+    z-index: 3;
+    transform: rotate(2deg);
+    }
+
+.headersrokefr {
+    position: absolute;
+    background-color: black;
+    top: 10vw;
+    left: 66.35vw;
+    z-index: 3;
+    transform: rotate(2deg);
+    height: 0.5vw;
+    width: 28.7vw;
+}
+
+.headersrokesc {
+    position: absolute;
+    background-color: black;
+    top: 15vw;
+    left: 59.9vw;
+    z-index: 3;
+    transform: rotate(2deg);
+    height: 0.5vw;
+    width: 28.7vw;
+}
+
+.container-first {
+    height: 48.333vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+
+.firstconleft {
+    background-color: #19A8E2;   
+    width: 100vw;
+    
+   
+}
+
+.frconleft {
+    margin: 1vw;
+  width: 100%;
+    font-size: 7.083vw;
+   
+
+}
+
+.starleft {
+    position: absolute;
+    top: 40vw;
+    left: 3vw;
+    background-image: url(../images/star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 20.5vw;
+    z-index: 2;
+    animation: movimg-star-left 10s cubic-bezier(0.1, -0.6, 0.2, 0) infinite ;
+    
+}
+
+.starleft:hover {
+animation: none;
+}
+
+.thoughts {
+    background-image: url(../images/thoughts.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    top: 2vw;
+    left: 5vw;
+    width: 80vw;
+    height: 30vw;
+    cursor: pointer;
+
+}
+
+.firstconcenter {
+    background-color: black;
+    width: 4.3vw;
+    padding: 0.5vw;
+ 
+
+}
+
+.frconctcenter {
+    color: #EBE327;
+    transform: rotate(90deg);
+   white-space: nowrap;
+    font-size: 3.3vw;
+    animation: stroke 1s linear infinite;
+  
+}
+.frconctcenter:hover {
+    color:#19A8E2 ;
+    }
+
+
+.firstconright {
+    width: 100vw;
+    background-color: #E20B15;
+    font-size: 7.083vw;
+    overflow: hidden;
+    
+
+}
+
+.frconctright {
+    margin: 0.5 vw;
+    font-size: 7.083vw;
+    
+
+}
+
+.imgfrman {
+    position: absolute;
+    top: 9vw;
+    left: 38vw;
+    width: 60.347vw;
+    height: 46.181vw;
+    background-image: url(../images/man.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+.starright {
+    position: absolute;
+    top: 20vw;
+    left: 80vw;
+    background-image: url(../images/star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 20.5vw;
+    z-index: 2;
+    animation:  movimg-star-right 15s cubic-bezier(0.8, -1, 0.1, 0) infinite ;
+    
+}
+
+.addresstop {
+    position: absolute;
+    top: 39vw;
+    left: 24vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/address.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 3;
+    width: 75vw;
+    height: 9.375vw;
+    font-size: 3.333vw;
+    justify-content: space-between;
+    
+}
+
+.topstroke {
+   display: flex;
+   flex-direction: row;
+}
+
+.topstrokeleft {
+    margin-left: 13vw;
+    word-spacing: 2vw;
+
+}
+
+.topstrokeleft:hover {
+    color:#EBE327 ;
+    }
+
+
+.topstrokeright:hover {
+        color: #19A8E2 ;
+        }
+    
+    
+.topstrokeright {
+    margin-left: 23vw;
+}
+
+.downstroke {
+    margin-left: 2vw;
+    word-spacing: 29vw;
+
+}
+.downstroke:hover {
+    color:#EBE327 ;
+    }
+
+
+
+/* _____________________первый контейнер______________________  */
+.container-second {
+    overflow: hidden;
+    position: relative;
+}
+
+.sec-backgroud {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.secgrand {
+    height: 46vw;
+    width: 56.2vw;
+    background-image: url(../images/seccontr.png);
+   
+
+}
+
+.secleft {
+    height: 46vw;
+    width: 43.8vw;
+    background-color: #19A8E2;   
+}
+.wave {
+    top: -1vw;
+    position: absolute;
+    background-image: url(../images/wave.png);
+    width: 100%;
+    height: 27vw;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 74.8vw;
+    height: 20vw;
+    font-size: 3.333vw;
+    top: 26vw;
+    left: 26vw;
+    background-color: white;
+   
+
+
+}
+
+.listfirst,
+.listthird,
+.listfivth {
+background-color: #EBE327;
+animation: changecolor 1s linear infinite;
+
+}
+
+.list:hover {
+    color:#EBE327 ;
+    }
+
+.listsecond,
+.listfourth,
+.listsix{
+    margin-left: 2vw;
+}
+
+/*________________ второй контейнер_______________ */
+
+.container-third {
+position: relative;
+
+}
+
+.runsroketheme{display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #EBE327;
+    font-size: 3.3vw;
+    background-color:black ;
+    height: 4.3vw;
+    } 
+
+.theme {
+   margin: 0.5vw;
+    animation: runstroke 60s ease infinite;
+
+}
+.theme:hover {
+    color:#19A8E2 ;
+    }
+
+
+.thirdbackdround {
+display: flex;
+flex-direction: row;
+}
+
+.thirdconblue {
+background-color: #19A8E2;
+width: 56.2vw;
+height: 34.514vw;
+overflow: hidden;
+}
+
+.marks { 
+font-size: 7.083vw;
+word-wrap: break-word;
+transform: rotate(270deg);
+height:  40vw;
+width:30vw;;
+}
+
+.thirdconred {
+width: 43.8vw;
+background-color: #E20B15;
+}
+
+.addressdown {
+    background-image: url(../images/adressblack.png);
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 76vw;
+    height: 9.375vw;
+    position: absolute;
+    top: 12vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.addressdown {
+    font-size: 3.333vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between   
+}
+
+.addownfr {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.addownfrtop {
+   margin-left: 1vw;
+   word-spacing: 5vw;
+    
+}
+
+.addownfrdown {
+    margin-left: 7vw;  
+
+}
+
+.adddownsc {
+    margin-left: 1vw;
+    word-spacing: 28vw;   
+}
+
+.legs {
+    background-image: url(../images/legs.png);
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 7vw;
+    left: 50vw;
+    width: 48vw;
+    height: 32vw;
+    
+
+}
+
+.runsrokeheavythought {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #EBE327;
+    font-size: 3.3vw;
+    background-color:black ;
+    height: 4.3vw;
+    
+
+}
+
+.conter-fouther {
+    position: relative;
+    overflow: hidden;
+}
+
+.footerback { background-image: url(../images/fotter.png);
+    height: 21.9vw;
+    
+
+}
+
+.footername {width: 25vw; 
+    height: 6vw;
+    border-radius: 20vw/5vw;
+    background-color: #E20B15;
+    position: absolute;
+    top: 1vw;
+    left:1vw ;
+    animation:  famail 4s linear infinite ;
+}
+
+.famail{
+    position: absolute;
+    top: 1vw;
+    left:3vw ;
+    font-size: 3.3vw;
+}
+
+.footername1 {width: 25vw; 
+    height: 6vw;
+    border-radius: 20vw/5vw;
+    background-color: #E20B15;
+    position: absolute;
+    top: 5vw;
+    left:15vw ;
+    animation:  famail 4s linear infinite reverse;
+}
+.name{
+    position: absolute;
+    top: 1vw;
+    left:7vw ;
+    font-size: 3.3vw;
+}
+.footername2 {width: 25vw; 
+    height: 6vw;
+    border-radius: 20vw/5vw;
+    background-color: #E20B15;
+    position: absolute;
+    top: 2vw;
+    left:40vw ;
+    animation:  famail 4s linear infinite alternate-reverse;
+}
+.group{
+    position: absolute;
+    top: 1vw;
+    left:4vw ;
+    font-size: 3.3vw;
+}
+
+/* скрытый экран */
+.hidden {
+    width: 100%;
+    height: 100vh;
+    background-color: #19A8E2;
+    display: none;
+    position: relative;
+    overflow: hidden;
+    font-size: 3.3vw;
+  
+}
+
+.hiddenman {
+background-image: url(../images/man.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+width:52.5vw ;
+height: 39.2vw;
+top: 34.2vw;
+left: 47vw;
+z-index: 1;
+cursor: pointer;
+}
+
+.container-first-hidden{
+    width: 100%;
+    height: 100%;
+    position: relative;}
+
+.frirst {
+background-image: url(../images/first.png);
+width: 27.8vw;
+height: 11.6vw;
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top: 1vw;
+left: 1vw;
+cursor: pointer;
+
+}
+
+.frtext {
+    color: #EBE327;
+    transform: rotate(-5deg);
+    position: absolute;
+    top: 2vw;
+    left: 3vw;
+}
+
+.second {
+    background-image: url(../images/sc.png);
+    width: 16.7vw;
+    height: 36.5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 9vw;
+   
+}
+
+.sctext {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 17vw;
+    left: -7vw;
+    width: 31vw;
+
+}
+
+.third {
+    background-image: url(../images/th.png);
+    width: 22.4vw;
+    height: 26.6vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 44vw;
+
+}
+
+.thtext {
+    transform: rotate(60deg);
+    position: absolute;
+    top: 14vw;
+    left: -2vw;
+    width: 31vw;
+    color: #EBE327;
+
+}
+
+.fourth {
+    background-image: url(../images/fr.png);
+    width: 29.7vw;
+    height: 41.1vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10vw;
+    left: 14vw;
+
+}
+
+.fourtext{
+    position: absolute;
+    top: 16vw;
+    left: 3vw;
+    width: 31vw;
+    color: #EBE327;
+
+}
+
+.fivth {
+    background-image: url(../images/fv.png);
+    width: 35.9vw;
+    height: 32vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 35vw;
+    left: 19vw;
+
+}
+
+.fvtext {
+    position: absolute;
+    top: 14vw;
+    left: 7vw;
+    
+}
+
+.six{
+    background-image: url(../images/six.png);
+    width: 32vw;
+    height: 21.8vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6vw;
+    left: 29vw;
+}
+
+.sxtext {
+    position: absolute;
+    top: 9vw;
+    left: 1vw;
+    transform: rotate(45deg);
+}
+
+.seven {
+    background-image: url(../images/sv.png);
+    width: 33.4vw;
+    height: 19vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 34vw;
+
+}
+
+.svtext {
+    position: absolute;
+    top: 5vw;
+    left: 6vw;
+    transform: rotate(25deg);
+    color: #EBE327;
+
+}
+
+.eight {
+    background-image: url(../images/egh.png);
+    width: 31.3vw;
+    height: 22.3vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15vw;
+    left: 44vw;
+}
+
+.egtext{
+    position: absolute;
+    top: 7vw;
+    left: 8vw;
+    color: #EBE327;
+}
+
+.nin {
+    background-image: url(../images/nine.png);
+    width: 37.2vw;
+    height: 23.6vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 47vw;
+}
+
+.nintext{
+    position: absolute;
+    top: 10vw;
+    left: 19vw;
+   transform: rotate(60deg);
+}
+
+.ten {
+    background-image: url(../images/ten.png);
+    width: 19.4vw;
+    height: 22.3vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 80vw;
+}
+
+.tentext {
+    position: absolute;
+    top: 6vw;
+    left: 3vw;
+   transform: rotate(90deg);
+   color: #EBE327;
+}
+
+.eleven {
+    background-image: url(../images/eleven.png);
+    width: 13.3vw;
+    height: 21vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 82vw;
+    top: 19vw;
+
+}
+
+.twelve {
+    background-image: url(../images/tv.png);
+    width: 13.3vw;
+    height: 33vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 86vw;
+    top: 33vw;
+
+}

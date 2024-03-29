@@ -1,0 +1,155 @@
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { 
+    body { min-width: 320px; } 
+
+    .container-first{
+        flex-direction: column; 
+        height: 48.333vw;  
+    }
+
+    .frconleft {
+        width: 100%;
+
+    }
+
+    .frconleft{
+    font-size: 10vw;
+    }
+    .firstconleft{
+       background-color: #E20B15; 
+    }
+
+    .imgfrman { top: 1vw;
+        left: 45vw;
+        width: 73.347vw;
+        height: 51.181vw;
+    
+    }
+
+    .secgrand{
+    width: 100%;
+    
+    background-size: contain;
+
+    }
+
+    .secleft{
+    width: 0vw;
+    }
+  
+    .wave {background-size: contain;
+        width: 106%;
+        background-repeat: no-repeat;
+    }
+    .list {
+    width: 100%;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .hidden {font-size: 4.8vw;}
+
+    .hiddenman{    width: 193.5vw;
+        height: 123.2vw;
+        top: 100.2vw;
+        left: -36vw;
+    
+    
+    }
+    .frirst{width: 33.8vw;
+        height: 14.6vw;}
+
+    .second { top: 39vw;}
+    .third{    width: 40.4vw;
+        height: 39.6vw;
+        top: 76vw;
+        left: 1vw;}
+
+    .thtext {left: 2vw;}
+
+    .fourth {
+        width: 39.7vw;
+        height: 44.1vw;
+        left: 58vw;
+        top: 20vw;
+    }
+
+    .fourtext{ top: 20vw;}
+
+
+
+    .fivth { height: 32vw;
+        width: 38.9vw;
+        height: 35vw;
+    top: 49vw;}
+
+    .fvtext{  top: 12vw;
+    left: 11vw;}
+
+    .six{    width: 36vw;
+        height: 27.8vw;
+        top: 15vw;
+    left: 4vw; 
+    
+    }
+
+    .seven{
+        width: 48.4vw;
+        height: 28vw;
+        transform: rotate(-45deg);
+    
+    }
+
+    .svtext{
+        top: 6vw;
+    }
+
+    .eight{
+        width: 35.3vw;
+    height: 27.3vw;
+    top: 25vw;
+    left: 26vw;
+    }
+
+    .nin{
+        width: 54.2vw;
+        height: 34.6vw;
+        top: 84vw;
+    }
+
+    .nintext{    top: 14vw;
+        left: 27vw;}
+
+    .ten{width: 24.4vw;
+        height: 29.3vw;
+        left: 76vw;
+    top: 61vw;
+        
+        }
+
+    .tentext{top: 7vw;}
+
+    .eleven {
+        left: 78vw;
+        top: 9vw;
+        width: 23.3vw;
+        height: 28vw;}
+
+    .footerback{ background-size: contain;}
+}
