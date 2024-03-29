@@ -87,3 +87,15 @@
 }
 
 }
+
+@keyframes movemove {
+
+0% { transform: translateX(1vw)}
+
+25% {opacity: 0;}
+
+75% {opacity: 1;}
+
+100% { transform: translateX(-1vw)}
+
+}

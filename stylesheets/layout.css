@@ -271,8 +271,10 @@ animation: none;
 
 .secgrand {
     height: 46vw;
-    width: 56.2vw;
+    width: 66.2vw;;
     background-image: url(../images/seccontr.png);
+    background-size: contain;
+ background-repeat: no-repeat;
    
 
 }
@@ -286,8 +288,10 @@ animation: none;
     top: -1vw;
     position: absolute;
     background-image: url(../images/wave.png);
-    width: 100%;
+   width: 110%;
     height: 27vw;
+    background-size: contain;
+ background-repeat: no-repeat;
 }
 
 .list {
@@ -542,7 +546,8 @@ background-repeat: no-repeat;
 position: absolute;
 top: 1vw;
 left: 1vw;
-cursor: pointer;
+animation: movemove 0.5s linear infinite alternate-reverse;
+
 
 }
 
@@ -562,7 +567,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     position: absolute;
     top: 9vw;
-   
+    animation: movemove 0.5s linear infinite ;
 }
 
 .sctext {
@@ -582,7 +587,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     position: absolute;
     top: 44vw;
-
+    animation: movemove 0.5s linear infinite alternate-reverse;
 }
 
 .thtext {
@@ -604,7 +609,7 @@ cursor: pointer;
     position: absolute;
     top: 10vw;
     left: 14vw;
-
+    animation: movemove 0.5s linear infinite alternate-reverse;
 }
 
 .fourtext{
@@ -625,7 +630,7 @@ cursor: pointer;
     position: absolute;
     top: 35vw;
     left: 19vw;
-
+    animation: movemove 0.5s linear infinite reverse;
 }
 
 .fvtext {
@@ -644,6 +649,7 @@ cursor: pointer;
     position: absolute;
     top: 6vw;
     left: 29vw;
+    animation: movemove 0.5s linear infinite ;
 }
 
 .sxtext {
@@ -661,7 +667,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     position: absolute;
     left: 34vw;
-
+    animation: movemove 0.5s linear infinite alternate-reverse;
 }
 
 .svtext {
@@ -682,6 +688,7 @@ cursor: pointer;
     position: absolute;
     top: 15vw;
     left: 44vw;
+    animation: movemove 0.5s linear infinite reverse;
 }
 
 .egtext{
@@ -699,6 +706,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     position: absolute;
     left: 47vw;
+    animation: movemove 0.5s linear infinite ;
 }
 
 .nintext{
@@ -716,6 +724,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     position: absolute;
     left: 80vw;
+    animation: movemove 0.5s linear infinite alternate-reverse;
 }
 
 .tentext {
@@ -735,6 +744,7 @@ cursor: pointer;
     position: absolute;
     left: 82vw;
     top: 19vw;
+    animation: movemove 0.5s linear infinite reverse;
 
 }
 
@@ -747,5 +757,6 @@ cursor: pointer;
     position: absolute;
     left: 86vw;
     top: 33vw;
+    animation: movemove 0.5s linear infinite ;
 
 }

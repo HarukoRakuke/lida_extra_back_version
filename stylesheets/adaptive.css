@@ -36,9 +36,9 @@
     width: 0vw;
     }
   
-    .wave {background-size: contain;
+    .wave {
         width: 106%;
-        background-repeat: no-repeat;
+       
     }
     .list {
     width: 100%;
